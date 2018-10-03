@@ -1,0 +1,290 @@
+body{
+    background-color: #CDC1C5;
+    background-image: url("sun.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    font-family: 'roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding:0;
+    overflow:hidden;
+    background-color: #FFA319;
+    border-bottom:solid white 3px;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+}
+
+#nav li{
+    float:left;
+}
+
+#nav li a{
+    display: block;
+    padding:14px 16px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+}
+
+#nav li a:hover{
+    background-color:#BE5ABE;
+}
+
+#content{
+    border: solid white 8px;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    width:70%;
+   
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding-bottom: 25px;
+    background-color:rgba(252,152,254,0.3);
+    font-size: 20px;
+}
+
+#content h1{
+    font-size: 75px;
+    
+  
+   
+}
+#content table{
+    margin-left: 4%;
+    border: solid white 8px;
+    font-size: 35px;
+    background-color: rgba(0,0,0,0.2);
+    width:33vw;
+}
+#period{
+    
+    width:48%;
+    float:right;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+#content #hobbies ul, #content #songs ol{
+    margin-left:50px;
+    text-align:left;
+}
+
+#gallery #water{
+    border: white solid 8px;
+    margin-top:20px;
+    width:30%;
+} 
+    
+#gallery #order{
+   border: white solid 8px;
+   margin-top: 20px;
+   width:30%;
+}
+#gallery #eating{
+    border: white solid 8px;
+    margin-top: 20px;
+    width:30%;
+}
+#gallery{
+    
+    width:95%;
+    display: flex;
+    margin-left: 2.5%;
+    margin-right:2.5%;
+    justify-content:space-between;
+}
+
+#content #teddy{
+    
+
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#content #hobbies{
+    border: white solid 8px;
+    float: none;
+    text-align: left;
+    width:27vw;
+    height: 35vh;
+    padding-left: 5%;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 21px;
+    margin-bottom: 1%;
+   
+}
+
+#content #songs{
+    border: white solid 8px;
+    text-align: left;
+    width:27vw;
+    height: 44vh;
+    padding-left: 5%;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 22px;
+    
+}
+
+#content #quote{
+    border: white solid 8px;
+    
+    
+    
+    margin-top: 1.5%;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 125%;
+    width:32vw;
+    height: 17.5vh;
+    float:right;
+    margin-right: 35px;
+}
+
+#sidetext{
+    margin-top: 20px;
+    margin-left: 5%;
+    width:40%;
+    float:left;
+    
+}
+#aboutthis{
+    text-align: center;
+    width:65%;
+    float:right;
+    margin-right: 2%;
+    padding-left:0;
+    padding-right: 10px;
+    background-color: rgba(0,0,0,0.25)
+    
+}
+#teddyjump{
+    width:28%;
+   background-color: white;
+    border: solid black 2px;
+    margin-left: 23px;
+    
+}
+#teddy{
+    margin-left: 7px;
+    margin-bottom: 5px;
+    width:90%;
+}
+/*css of index starts here*/
+#greetings{
+    /*border:white solid 2px;*/
+    width:70%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+    border:solid white 2px;
+}
+
+/* resume css starts here*/
+#start{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#intro{
+    text-align: left;
+    border-top:solid white 2px;
+    border-bottom:solid white 2px;
+    padding-left: 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+#school{
+    text-align: left;
+   padding-left: 20px;
+    
+}
+
+#tableflex{
+    text-align: left;
+    padding-left: 30px;
+    background-color: rgba(0,0,0,0.2);
+    border-top:solid white 2px;
+    border-bottom:solid white 2px;
+}
+#topic{
+    text-align: left;
+    padding-left: 20px;
+    width: 30%;
+    height:55px;
+    float:left;
+  
+}
+#date{
+    text-align: right;
+    padding-right: 20px;
+    width: 30%;
+    height:55px;
+    float: right;
+   
+}
+#majorflex{
+    text-align: left;
+    border-bottom: solid white 2px;
+    border-top:solid white 2px;
+    background-color: rgba(0,0,0,0.2);
+    clear: both;
+}
+#topic2{
+    text-align: left;
+    padding-left: 20px;
+    width: 30%;
+    height:55px;
+    float:left;
+  
+}
+#date2{
+    text-align: right;
+    padding-right: 20px;
+    width: 30%;
+    height:55px;
+    float: right;
+   
+}
+#majorflex2{
+    text-align: left;
+    border-bottom: solid white 2px;
+    border-top:solid white 2px;
+    background-color: rgba(0,0,0,0.2);
+    clear: both;
+}
+#majorheader{
+    height:35px;
+}
+#eduhead{
+    height:35px;
+}
+#skillshead{
+    height:60px;
+}
+#skillsflex{
+    background-color: rgba(0,0,0,0.2);
+    border-top:solid white 2px;
+    border-bottom:solid white 2px;
+    text-align: left;
+    
+}
+
+#honorlist{
+    background-color: rgba(0,0,0,0.2);
+    border-top:solid white 2px;
+    border-bottom:solid white 2px;
+    text-align: left;
+}
