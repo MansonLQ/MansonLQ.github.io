@@ -65,7 +65,8 @@ body{
 #content table{
     margin-left: 4%;
     border: solid white 8px;
-    font-size: 35px;
+    font-size: 5vw;
+    font-size: 5.5vh;
     background-color: rgba(0,0,0,0.2);
     width:33vw;
 }
@@ -113,7 +114,9 @@ body{
     margin-right: 50px;
     margin-top: 20px;
 }
-
+#info{
+    /*border: white solid 2px;*/
+}
 #content #hobbies{
     border: white solid 8px;
     float: none;
@@ -122,9 +125,10 @@ body{
     height: 35vh;
     padding-left: 5%;
     background-color: rgba(0,0,0,0.2);
-    font-size: 21px;
+    font-size: 1.75vw;
+    font-size: 3.4vh;
     margin-bottom: 1%;
-   
+   padding-bottom: 0.5vh;
 }
 
 #content #songs{
@@ -133,24 +137,25 @@ body{
     width:27vw;
     height: 44vh;
     padding-left: 5%;
-    margin-top: 15px;
+    margin-top: 2vh;
     background-color: rgba(0,0,0,0.2);
-    font-size: 22px;
+    font-size: 1.75vw;
+    font-size: 3.8vh;
+    
     
 }
 
 #content #quote{
     border: white solid 8px;
-    
-    
-    
-    margin-top: 1.5%;
+    margin-top: 2vh;
     background-color: rgba(0,0,0,0.2);
-    font-size: 125%;
-    width:32vw;
+    font-size: 2vw;
+    font-size:4vh;
+    width:31.5vw;
     height: 17.5vh;
     float:right;
-    margin-right: 35px;
+    margin-right: 3vw;
+    margin-left: 2vw;
 }
 
 #sidetext{
@@ -160,27 +165,40 @@ body{
     float:left;
     
 }
+#headerinfo{
+    
+    width: 70vw;
+    height: 44vh;
+}
 #aboutthis{
     text-align: center;
-    width:65%;
+    padding-left: 2vw;
+    width:46vw;
+    height:43.5vh;
     float:right;
-    margin-right: 2%;
+    margin-right: 2vw;
+    margin-left: 0vw;
     padding-left:0;
-    padding-right: 10px;
+    padding-right: 0.5vw;
+    font-size: 1.4vw;
+    font-size: 3.3vh;
     background-color: rgba(0,0,0,0.25)
     
 }
 #teddyjump{
-    width:28%;
+    width:19vw;
+    height: 43vh;
    background-color: white;
     border: solid black 2px;
-    margin-left: 23px;
+    margin-left: 2vw;
+    margin-right: 0vw;
     
 }
 #teddy{
     margin-left: 7px;
     margin-bottom: 5px;
-    width:90%;
+    width:18vw;
+    height: 37vh;
 }
 /*css of index starts here*/
 #greetings{
