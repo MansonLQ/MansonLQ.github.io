@@ -306,3 +306,39 @@ body{
     border-bottom:solid white 2px;
     text-align: left;
 }
+
+#content #description{
+    width:98%;
+    border: solid white 5px;
+    background-color: rgba(0,0,0,0.2);
+   padding: 5px;
+    font-size: 4vh;
+   font-size: 1.5vw;
+}
+#content #reflection{
+    width:98%;
+ margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: solid white 5px;
+    background-color: rgba(0,0,0,0.2);
+   padding: 5px;
+   font-size: 4vh;
+   font-size: 1.5vw;
+}
+#content #maintext{
+  margin-top: 1vh;
+    height: 100%;
+    width: 70%;
+   margin-left: 15%;
+}
+#content #algorithm{
+    border: solid white 5px;
+   background-color: rgba(0,0,0,0.2);
+   padding:10px;
+   padding-top: 20px;
+}
+#content a{
+    font-weight: bold;
+    color: white;
+    border:solid 5px white;
+}
